@@ -1,0 +1,14 @@
+{
+  "name": "Sidstore",
+  "app_id": "",
+  "type": "ionic-angular",
+  "proxies": [
+    {
+        "path": "/v3",
+        "proxyUrl": "http://localhost/wordpress/wc-api/v3/"
+    }]
+    ,
+  "integrations": {
+    "cordova": {}
+  }
+}
